@@ -37,9 +37,6 @@ else
     # Install Yeoman
     apt-get install libjpeg-turbo-progs
     apt-get install optipng
-    git clone git://github.com/ariya/phantomjs.git
-    cd phantomjs
-    git checkout 1.7
-    ./build.sh && deploy/package.sh
+    apt-get install phantomjs
     npm install -g yeoman
 fi
