@@ -39,4 +39,5 @@ else
     apt-get install optipng
     apt-get install phantomjs
     npm install -g yeoman
+    curl -L get.yeoman.io | bash
 fi
